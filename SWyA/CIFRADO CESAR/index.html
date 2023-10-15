@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="texto">Texto </label>
+                    <textarea name="texto" id="texto" type="text" class="form-control"></textarea>
+                </div>
+
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="desplazamiento">desplazamiento</label>
+                        <input type="range" min="1" max="25" step="1" id="desplazamiento" name="desplazamiento" class="form-control">
+                    </dic>
+                </div>
+
+                
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="cifrado">Texto cifrado</label>
+                        <input type="text" id="cifrado" name="cifrado" class="form-control" disabled>
+                    </dic>
+                </div>
+                <button id ="boton-descifrar">DESCIFRAR</button>
+
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="descifrado">Texto descifrado</label>
+                        <input type="text" id="descifrado" name="descifrado" class="form-control" disabled>
+                    </dic>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/cesar.js"></script>
+</body>
+</html>
