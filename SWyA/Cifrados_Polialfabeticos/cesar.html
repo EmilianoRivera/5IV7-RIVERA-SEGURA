@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cesar.css">
+    <title>Cifrado César</title>
+</head>
+<body>
+    <h1>Cifrado César</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="viggenere.html">Cifrado Viggenere</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="container">
+
+        <p>Ingresa un número (clave) o una letra (clave) y un mensaje para cifrar o descifrar:</p>
+        <input type="text" id="clave" placeholder="Número o letra de clave">
+        <textarea id="mensaje" placeholder="Mensaje para cifrar o descifrar"></textarea>
+        <button onclick="cifrarCesar()">Cifrar</button>
+        <button onclick="descifrarCesar()">Descifrar</button>
+        <p>Resultado:</p>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="./JS/cesar.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cesar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>CESAR</title>
+</head>
+<body>
+    <header>
+        <h1>CIFRADO CESAR</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="viggenere.html">Cifrado viggenere</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="texto">Texto </label>
+                    <textarea name="texto" id="texto" type="text" class="form-control"></textarea>
+                </div>
+
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="desplazamiento">desplazamiento</label>
+                        <input type="range" min="1" max="25" step="1" id="desplazamiento" name="desplazamiento" class="form-control">
+                    </dic>
+                </div>
+
+                
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="cifrado">Texto cifrado</label>
+                        <input type="text" id="cifrado" name="cifrado" class="form-control" disabled>
+                    </dic>
+                </div>
+               
+                <button  id ="boton-descifrar">Descifrar </button>
+
+                <div class="col-md-12">
+                    <dic class="form-group">
+                        <label for="descifrado">Texto descifrado</label>
+                        <input type="text" id="descifrado" name="descifrado" class="form-control" disabled>
+                    </dic>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/cesar.js"></script>
+</body>
+</html>-->

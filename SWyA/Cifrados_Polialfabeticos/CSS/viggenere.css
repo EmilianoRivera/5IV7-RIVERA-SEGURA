@@ -1,0 +1,96 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+   
+    color: #000000;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.datos p {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para el botón de Copiar */
+input[type="button"].btn-info {
+    background-color: #17a2b8;
+}
+
+/* Estilos para centrar el artículo */
+.center-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.navbar {
+    background-color: #007bff;
+    padding: 10px 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#fff ;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+a:hover{
+    color:#ffffff8b;
+    
+}
